@@ -2,6 +2,7 @@ import numpy as np
 
 predictedOutput = 0
 np.random.seed(1)
+np.set_printoptions(precision=6, suppress=True)
 
 trainInput = np.array([[0, 0, 1],
                        [1, 1, 1],
